@@ -1,4 +1,4 @@
-Summary of RFM Analysis on Online Retail Dataset
+# Summary of RFM Analysis on Online Retail Dataset
 In this project, we conducted an RFM (Recency, Frequency, Monetary) analysis on an online retail dataset to identify and segment customers based on their purchasing behavior.
 
 Data Collection:
