@@ -1,25 +1,28 @@
-# Summary of RFM Analysis on Online Retail Dataset
-In this project, we conducted an RFM (Recency, Frequency, Monetary) analysis on an online retail dataset to identify and segment customers based on their purchasing behavior.
+# RFM Analysis of Online Retail Dataset
 
-Data Collection:
-We used a dataset containing transaction details such as InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, and Country.
+## Overview
+This project involves conducting an RFM (Recency, Frequency, Monetary) analysis on an online retail dataset to identify and segment customers based on their purchasing behavior.
 
-Data Preprocessing:
+## Data Collection
+- **Dataset Details:** Utilized a dataset with transaction information including InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, and Country.
 
-Handled missing values by removing rows with missing CustomerID.
-Cleaned the data by removing duplicates and inconsistencies.
-Created a TotalPrice column to represent the total amount spent in each transaction.
-RFM Calculation:
+## Data Preprocessing
+- **Handling Missing Values:** Removed rows with missing CustomerID to ensure data completeness.
+- **Data Cleaning:** Eliminated duplicates and inconsistencies to maintain data integrity.
+- **TotalPrice Calculation:** Created a `TotalPrice` column to represent the total amount spent in each transaction.
 
-Recency: Calculated as the number of days since the last purchase.
-Frequency: Counted the number of transactions per customer.
-Monetary: Summed the total amount spent by each customer.
-RFM Segmentation:
+## RFM Calculation
+- **Recency:** Measured as the number of days since the customer's last purchase.
+- **Frequency:** Counted the number of transactions made by each customer.
+- **Monetary:** Calculated the total amount spent by each customer.
 
-Customers were ranked and scored based on Recency, Frequency, and Monetary values.
-Combined these scores to create an overall RFM score for each customer.
-Segmented customers into groups such as Champions, Loyal Customers, Potential Loyalists, Recent Customers, At Risk, and Hibernating.
-Insights and Application:
-This segmentation provided valuable insights into customer behavior, enabling the development of targeted marketing strategies to improve customer retention and maximize revenue.
+## RFM Segmentation
+- **Scoring and Ranking:** Customers were ranked and scored based on Recency, Frequency, and Monetary values.
+- **Overall RFM Score:** Combined the individual scores to derive an overall RFM score for each customer.
+- **Segmentation:** Categorized customers into groups such as Champions, Loyal Customers, Potential Loyalists, Recent Customers, At Risk, and Hibernating.
 
-This RFM analysis is a crucial tool for enhancing customer relationship management and tailoring marketing efforts to different customer segments.
+## Insights and Application
+- **Behavioral Insights:** The segmentation provided valuable insights into customer behavior.
+- **Targeted Strategies:** Enabled the development of targeted marketing strategies aimed at improving customer retention and maximizing revenue.
+
+This RFM analysis is a vital tool for enhancing customer relationship management and optimizing marketing efforts across different customer segments.
